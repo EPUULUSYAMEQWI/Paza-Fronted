@@ -1,0 +1,50 @@
+.icons{
+    display:flex;
+    font-size: larger;
+    margin-bottom: 120px;
+    grid-gap:152px;
+    margin:125px 350px 30px 60px;
+
+    
+}
+#heart{
+    color:rgb (18,2,34);
+    font-size: larger;
+}
+#down{
+    color:rgb(3,46,46);
+    font-weight:100;
+    font-size:larger;
+}
+#comment{
+font-weight:100;
+font-size:larger;
+}
+.box{
+    /* display: inline-flex; */
+    width:800px ;
+    height:200px ;
+    border: 3px solid rgb(218, 224, 241);
+    grid-gap:190px;
+    border-radius: 10px;
+    background-color: rgb(218, 224, 241);
+}
+.boxes{
+    display: flex;
+    grid-gap:190px;
+    
+}
+.box4{
+    background-color: rgb(218, 224, 241);
+    border-radius: 10px;
+    width:800px ;
+    height:200px ;
+    margin-top: 30px;
+}
+.box5{
+    background-color: rgb(218, 224, 241);
+    border-radius: 10px;
+    width:800px ;
+    height:200px ;
+    margin-top: 30px;
+}

@@ -1,0 +1,37 @@
+.boxes-content{
+    display: flex;
+    }
+    .box-content1{
+    border: 2px solid rgb(7, 7, 95) ;
+    width: 350px;
+    height: 200px;
+    background-color:rgb(7, 7, 95);
+    }
+    .box-content2{
+        border: 2px solid rgb(56, 82, 5);
+        width: 350px;
+        height: 200px;
+        background-color: rgb(56, 82, 5);
+        margin-left: 10%;
+    }
+    #pos{
+    margin-top: 58%;
+    color: black;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    #for{
+        margin-top: 58%;
+        color: black;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+.charts{  
+display: flex;
+margin-top: 50px;
+width: 900px;
+height: 200px;
+}
+.chart1{
+margin-left: -2%;
+}
