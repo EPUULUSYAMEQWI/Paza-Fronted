@@ -1,6 +1,5 @@
 import React, { useContext, useState } from 'react'
 import Header from '../components/Header'
-import { FaPhoneAlt, FaUser } from 'react-icons/fa'
 import AppContext from '../context/Context'
 import { useNavigate } from 'react-router-dom'
 
@@ -44,7 +43,7 @@ const CreateForums = () => {
             
 
             <div className="relative mb-4">
-                <span className="absolute flex inset-y-0 items-center pl-4 text-gray-400"><FaPhoneAlt /></span>
+                <span className="absolute flex inset-y-0 items-center pl-4 text-gray-400"></span>
                 <input 
                 name='title'
                 placeholder='Title'
@@ -65,7 +64,7 @@ const CreateForums = () => {
                 <span className="absolute flex inset-y-0 items-center pl-4 text-gray-400"></span>
                 <textarea 
                 name='text'
-                placeholder='Message'
+                placeholder='Description'
                 type='text'
                 required
                     className='outline-none
